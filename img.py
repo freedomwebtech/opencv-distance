@@ -6,7 +6,7 @@ while True:
      cv2.imshow('FRAME',frame)
      if cv2.waitKey(1) == ord('a'):
         print ("pressed a")
-        frame=cv2.imwrite("/home/pi/colortracking/rf.png",frame)
+        frame=cv2.imwrite("/home/pi/opencv-distance/rf.png",frame)
         break
         
 cap.release()
